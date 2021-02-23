@@ -43,10 +43,10 @@ Requirements：
 在配置好环境且数据集下载完成后，可以开始模型的训练
 ## Step1
 首先在`cfgs/mvp2m.yaml`中将对应路径设置成自己数据集所在的位置
-- train_file_path: the path of your own train split file which contains training data name for each instance
-- train_image_path: input image path
-- train_data_path: ground-truth model path
-- coarse_result_*: the configuration items related to the coarse intermediate mesh should be same as the training data
+- `train_file_path`: the path of your own train split file which contains training data name for each instance
+- `train_image_path`: input image path
+- `train_data_path`: ground-truth model path
+- `coarse_result_*`: the configuration items related to the coarse intermediate mesh should be same as the training data
 
 ## Step2
 配置完对应的cfg文件，且在***train_mvp2m.py***中修改预训练模型路径后(记着将***pre_train***的选项由False改为True  Default：False)。
