@@ -20,7 +20,7 @@ Requirements：
 - ...
 
 
-本代码在Tensorflow 2.4,CUDA 11.0，Ubuntu 20.04 ，硬件设备：GeForce GTX 1050 Ti上测试过。**建议懒得配环境的同学用TF官网Docker，本代码全程在Docker中调试运行**（备注：由于过年在家期间用自己电脑跑的，未在实验室，因此预训练权重和Model暂且不放上来了、后续会补充。一个Epoch数据有35010个，跑完一个Epoch大概需要1.5h。loss在跑5-10个epoch后可收敛到4~6左右，三维重建后的模型较为精细。loss最低预估可收敛到4.5附近。）
+本代码在Tensorflow 2.4,CUDA 11.0，Ubuntu 20.04 ，硬件设备：GeForce GTX 1050 Ti上测试过。**建议懒得配环境的同学用TF官网Docker，本代码全程在Docker中调试运行**（备注：由于过年在家期间用自己电脑跑的，未在实验室，因此预训练权重和Model暂且不放上来了、后续会补充。一个Epoch数据有35010个，跑完一个Epoch大概需要1.5h。loss跑10个epoch损失收敛在12左右。loss在跑45-50个epoch后可收敛到4~6左右，三维重建后的模型较为精细。loss最低预估可收敛到4.5附近。）
 
 # Dataset
 
